@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc
   holiday_hash.each do |season, seasons_hash|
       puts "#{season.to_s.capitalize}:"
-    end
+    #end
     seasons_hash.each do |holiday, supply|
       if holiday == :christmas
         stringifi = supply.join(", ")
