@@ -106,6 +106,7 @@ def all_holidays_with_bbq(holiday_hash)
       bbq = []
       if supply_array.include?("BBQ")
         bbq << holiday
+        puts "#{holiday}"
       end
     end
   end
