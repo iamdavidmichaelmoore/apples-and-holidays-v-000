@@ -86,7 +86,7 @@ def all_supplies_in_holidays(holiday_hash)
         splitifi = holiday.to_s.split("_")
         all_capped = []
         splitifi.each do |cap_first|
-          all_capped << splitificap_first.capitlize
+          all_capped << cap_first.capitlize
         end
         capped_stringified = all_capped.join(" ")
         #new_capitalized = holiday.to_s.split("_")[0].capitalize
