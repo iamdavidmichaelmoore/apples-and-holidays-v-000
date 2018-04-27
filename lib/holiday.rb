@@ -81,7 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday == :christmas || holiday == :thanksgiving #!(holiday.to_s.include?("_")
         stringifi = supply.join(", ")
         puts "  #{holiday.to_s.capitalize}: #{stringifi}"
-      elsif holiday == :new_years || holiday == fourth_of_july || holiday == memorial_day #holiday.to_s.include?("_")
+      elsif holiday == :new_years || holiday == :fourth_of_july || holiday == :memorial_day #holiday.to_s.include?("_")
         stringifi = supply.join(", ")
         splitifi = holiday.to_s.split("_")
         all_capped = []
